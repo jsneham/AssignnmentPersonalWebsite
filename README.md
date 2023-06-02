@@ -1,4 +1,4 @@
-# AssignnmentPersonalWebsite
+# AssignmentPersonalWebsite
 
 Application 1 : Creating Personal Website
 The aim of this application is to build fundamental understanding of HTML/CSS. By the end of this application the learner will be able to
