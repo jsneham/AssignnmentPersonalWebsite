@@ -5,7 +5,7 @@
 }
 
 .navbar{ 
-    position: sticky;
+ position: sticky;
  background-color: #ffffff;
  width: 100%;
  height: auto;
@@ -39,7 +39,7 @@
     color: #141e30;
 }
 
-a:hover {
+.item__nav:hover {
     background-color: #0f0c29 ;
     color: #ffffff;
     font-size: medium;
@@ -50,7 +50,7 @@ a:hover {
 
 .main-section{
     background-color: #0f0c29;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     color: #ffffff;
@@ -66,8 +66,25 @@ a:hover {
     justify-items: center;
 }
 .banner__heading{
-    font-size: 2rem;
-    padding: 2px;
+    font-size: 3rem;
+    margin: 5px;
 }
-.
+.banner__sub {
+    font-size: 1.6rem;
+    margin: 5px;
+}
+.banner__button {
+    background-color: white;
+    color: #141e30;
+    padding: 10px;
+    margin: 5px;
+    width: auto;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 5px;
+}
 
+.banner__button:hover{
+ font-size: 1rem;
+ font-weight: bold;
+}
