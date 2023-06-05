@@ -88,3 +88,55 @@
  font-size: 1rem;
  font-weight: bold;
 }
+
+.about{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+#about-section {
+    background-color: #262626;
+    height: 50vh;
+}
+
+.about__img {
+    height: 50vh;
+    width: 50%;
+    background-image: url("../images/about.jpeg");
+  }
+  
+  .about__txt {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .about__txt__content {
+    color: #feda6a;
+    font-size: 3rem;
+    padding: 1vw;
+  }
+  
+  .about__txt__paragraph {
+    color: #d4d4dc;
+    font-size: 1rem;
+  }
+
+  .footer {
+    background-color: #080808;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .footer__rights {
+    color: #ffffff;
+  }
+  
